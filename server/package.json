@@ -17,17 +17,17 @@
   "author": "Patrick Mackle",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.7.7",
-    "body-parser": "^1.20.3",
-    "concurrently": "^9.1.0",
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "concurrently": "^9.2.0",
     "cookie-parser": "^1.4.7",
     "cookie-session": "^2.1.0",
     "cors": "^2.8.5",
     "dayjs": "^1.11.13",
-    "docusign-esign": "^8.0.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "prettier": "^3.3.3"
+    "docusign-esign": "^8.3.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "prettier": "^3.6.2"
   },
   "overrides": {
     "degenerator": "5.0.1",
@@ -37,6 +37,6 @@
   "devDependencies": {
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.10"
   }
 }
