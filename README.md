@@ -27,7 +27,7 @@ The Telecom Sample App showcases how the telecommunications industry could integ
 * A Docusign integration key (a client ID) that is configured to use **JSON Web Token (JWT) Grant**. You will need the **integration key** itself and its **RSA key pair**. To use this application, you must add your application's **Redirect URI** to your integration key. To run locally, add http://localhost:3000/index and http://localhost:3000 as your **Redirect URI**. This [**video**](https://www.youtube.com/watch?v=GgDqa7-L0yo) demonstrates how to create an integration key (client ID) for a user application like this example.
 * [Payment gateway](https://github.com/docusign/sample-app-telecom-nodejs#configure-a-payment-gateway) for your developer account.
 * [Enable SMS delivery for your account](https://developers.docusign.com/docs/esign-rest-api/esign101/concepts/sms-delivery/).
-* [Node.js](https://nodejs.org/) v10+.
+* [Node.js](https://nodejs.org/) `^22.23.4`, `^24.22.1`, `^26.12.1` or higher.
 
 ### Creating a new integration
 Before you can run this app on your local machine, you first must create a new integration with a Docusign developer account.
